@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro:wght@400;600&family=Source+Serif+Pro&display=swap');
+.bg-main {
+  background-image: url('../img/main.png');
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-main::after {
+  content: '';
+  background-color: #000;
+}
+.m-much {
+  margin-top: -140px;
+}
+.fade {
+  transition: all 0.3s;
+}
+.circle {
+  border-radius: 50%;
+}
+.h-100 {
+  width: 175px;
+}
+.mt-100 {
+  margin-top: -85px;
+}
+.rounded-card {
+  border-radius: 30px;
+}
+.up-hover:hover,
+.btn:hover {
+  transform: translateY(-2.5px);
+  transition: all 0.3s;
+}
+.font-nunito {
+  font-family: 'Poppins';
+}
+.font-courgette {
+  font-family: 'Courgette';
+}
+.bg-transparan {
+  background-color: rgba(250, 250, 250, 0.3);
+  padding: 7px 17px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.bg-transparan:hover {
+  background-color: rgba(250, 250, 250, 0.4);
+}
