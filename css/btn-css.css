@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.button {
+  padding: 4px 10px;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border: 1px solid #000;
+  border-radius: 0px;
+  transition: all 0.3s;
+}
+.button:hover {
+  color: black;
+  background-color: white;
+}
+#result-code {
+  font-family: 'Source Code Pro';
+}
